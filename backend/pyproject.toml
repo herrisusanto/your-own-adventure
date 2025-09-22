@@ -1,0 +1,15 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.117.1",
+    "langchain-openai[standard]>=0.3.33",
+    "langchain[standard]>=0.3.27",
+    "psycopg2-binary[standard]>=2.9.10",
+    "python-dotenv[standard]>=1.1.1",
+    "sqlalchemy[standard]>=2.0.43",
+    "uvicorn[standard]>=0.36.0",
+]
